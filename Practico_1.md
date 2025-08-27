@@ -52,3 +52,9 @@
       - Ingresar **nombre de usuario** y **contraseña** creados previamente
 
 ## 2. Instalación de un Proxy de Interpretación (ZAP)
+
+   1. Abrir la Terminal en Linux
+   
+   2. Dentro de la terminal ingresar:
+   ```bash
+sudo apt update && sudo apt upgrade -y
