@@ -19,36 +19,36 @@
 
 7. Seguir los pasos del instalador de Kali Linux para completar la instalación.
 
-7.1. Iniciar Instalación
-- Ejecutar el instalador de Kali Linux con la opción **Graphical Install**.
-
-7.2. Seleccionar Idioma
-- Elegir **Español**.
-
-7.3. Seleccionar Ubicación
-- Elegir tu ubicación geográfica.
-
-7.4. Configuración de Teclado
-- Seleccionar **Latinoamericano**.
-
-7.5. Configuración de Usuario
-- Nombre completo: `Agustin Schlechter`
-- Nombre de usuario: `agustin` (ejemplo)
-- Ingresar contraseña segura
-
-7.6. Configuración de Red
-- Dirección IP: `0.2.15` (ejemplo, según tu red)
-- Configurar según necesidad de la red local
-
-7.7. Particionado del Disco
-- Método: **Utilizar todo el disco (Guiado)**
-- Elegir la opción recomendada
-- Cuando se pregunte si deseas formatear el disco: **Sí**
-- Continuar con todas las configuraciones predeterminadas
-
-7.8. Finalizar Instalación
-- Una vez completada, el sistema se reiniciará
-- En la pantalla de inicio, seleccionar: **Kali GNU/Linux**
-- Ingresar **nombre de usuario** y **contraseña** creados previamente
+      7.1. Iniciar Instalación
+      - Ejecutar el instalador de Kali Linux con la opción **Graphical Install**.
+      
+      7.2. Seleccionar Idioma
+      - Elegir **Español**.
+      
+      7.3. Seleccionar Ubicación
+      - Elegir tu ubicación geográfica.
+      
+      7.4. Configuración de Teclado
+      - Seleccionar **Latinoamericano**.
+      
+      7.5. Configuración de Usuario
+      - Nombre completo: `Agustin Schlechter`
+      - Nombre de usuario: `agustin` (ejemplo)
+      - Ingresar contraseña segura
+      
+      7.6. Configuración de Red
+      - Dirección IP: `0.2.15` (ejemplo, según tu red)
+      - Configurar según necesidad de la red local
+      
+      7.7. Particionado del Disco
+      - Método: **Utilizar todo el disco (Guiado)**
+      - Elegir la opción recomendada
+      - Cuando se pregunte si deseas formatear el disco: **Sí**
+      - Continuar con todas las configuraciones predeterminadas
+      
+      7.8. Finalizar Instalación
+      - Una vez completada, el sistema se reiniciará
+      - En la pantalla de inicio, seleccionar: **Kali GNU/Linux**
+      - Ingresar **nombre de usuario** y **contraseña** creados previamente
 
 ## 2. Instalación de un Proxy de Interpretación (ZAP)
