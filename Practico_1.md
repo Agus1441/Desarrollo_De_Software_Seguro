@@ -32,8 +32,8 @@
       - Seleccionar **Latinoamericano**.
       
       7.5. Configuración de Usuario
-      - Nombre completo: `Agustin Schlechter`
-      - Nombre de usuario: `agustin` (ejemplo)
+      - Nombre completo: `Nombre completo`
+      - Nombre de usuario: `nombre` (ejemplo)
       - Ingresar contraseña segura
       
       7.6. Configuración de Red
@@ -77,3 +77,26 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
    ```
 
 (El nombre puede variar segun la descarga en caso de no funcionar copien y pegen el nombre del archivo en la terminal "sudo dpkg -i nombre_archivo")
+
+## 4. Instalación de Docker
+
+   1. Actualizar los repositorios
+      
+   ```bash
+   sudo apt update
+   ```
+
+   2. Instalar Docker (En caso de no funcionar agrega al final del comando "--fix-missing") 
+   ```bash
+   sudo apt install -y docker.io 
+   ```
+
+   3. Habilitar y arrancar el servicio de Docker
+   ```bash
+   sudo systemctl enable docker --now
+   ```
+
+   4. Una vez instalado revisar con el comando:
+   ```bash
+docker --version
+   ```
