@@ -59,4 +59,9 @@
    ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install zaproxy -y
+   ```
+
+   3. Una vez instalado revisar con el comando:
+   ```bash
 zaproxy --version
+   ```
