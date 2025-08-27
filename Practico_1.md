@@ -65,3 +65,15 @@ sudo apt install zaproxy -y
    ```bash
 zaproxy --version
    ```
+
+## 3. Instalación de Visual Studio Code
+
+   1. Descargar Visual Studio Code para Linux desde "https://code.visualstudio.com/docs/setup/linux" (El archivo se llama ".deb.package (64-bit)")
+
+   2. Dentro de la terminal ingresa los siguientes comandos 
+   ```bash
+cd Descargas
+sudo dpkg -i code_1.103.2-1755709794_amd64.deb
+   ```
+
+(El nombre puede variar segun la descarga en caso de no funcionar copien y pegen el nombre del archivo en la terminal "sudo dpkg -i nombre_archivo")
