@@ -98,5 +98,35 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
 
    4. Una vez instalado revisar con el comando:
    ```bash
-docker --version
+   docker --version
    ```
+
+## 5. Ejecución de OWASP Juice Shop en Docker
+
+   1. Ejecutar el siguiente comando en la terminal:
+   ```bash
+   docker run --rm -p 3000:3000 bkimminich/juice-shop
+   ```
+
+   2. Verificar que el contenedor funciona correctamente accediendo a la página levantada localmente http://localhost:3000
+
+## 6. Ejecución de crAPI en Docker
+
+   1. Abrir una nueva terminal
+   
+   2. Ejecutar los siguientes comandos en la terminal:
+   ```bash
+   git clone https://github.com/OWASP/crAPI.git
+   cd crAPI/deploy/docker
+   docker-compose up
+   ```
+
+   3. Abre tu navegador y accede a http://localhost:8888 
+
+   **Nota:** Si el puerto cambia por algún motivo, abre una nueva terminal y ejecuta:
+
+   ```bash
+   sudo docker ps
+   ```
+
+   4. Dentro de la página encontrarás el formulario de inicio de sesión. Desde allí podrás crear una cuenta y acceder al sistema.
