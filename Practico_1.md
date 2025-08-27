@@ -129,4 +129,6 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
    sudo docker ps
    ```
 
+   Revisa la columna PORTS de la imagen crapi/crapi-web y reemplaza el número de puerto en la URL según corresponda.
+
    4. Dentro de la página encontrarás el formulario de inicio de sesión. Desde allí podrás crear una cuenta y acceder al sistema.
