@@ -58,8 +58,7 @@
    2. Dentro de la terminal ingresar:
    ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install zaproxy -y```
+sudo apt install zaproxy -y
 
    3. Revisar si se instalo con el comando:
-   ```bash
 zaproxy --version
