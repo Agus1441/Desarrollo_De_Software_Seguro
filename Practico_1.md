@@ -58,5 +58,6 @@
    2. Dentro de la terminal ingresar:
    ```bash
 sudo apt update && sudo apt upgrade -y
+bash```
 sudo apt install zaproxy -y
 bash```
