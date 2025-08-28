@@ -51,14 +51,14 @@
       - En la pantalla de inicio, seleccionar: **Kali GNU/Linux**
       - Ingresar **nombre de usuario** y **contraseña** creados previamente
 
-## 2. Instalación de un Proxy de Interpretación (ZAP)
+## 2. Instalación de un Proxy de Interpretación (burpsuite)
 
    1. Abrir la Terminal en Linux
    
    2. Dentro de la terminal ingresar:
    ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install zaproxy -y
+sudo apt install burpsuite -y
    ```
 
    3. Una vez instalado revisar con el comando:
@@ -168,3 +168,11 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
 
 6. *Navegar a un sitio web para probar la interceptación*  
    - En el navegador, visitar cualquier sitio web (por ejemplo, http://google.com o https://ucu.edu.uy).
+
+### Integrantes
+
+- Juan Martínez
+
+- Agustín Schlechter
+
+- Joaquín Viola
