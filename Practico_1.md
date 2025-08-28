@@ -132,3 +132,39 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
    Revisa la columna PORTS de la imagen crapi/crapi-web y reemplaza el número de puerto en la URL según corresponda.
 
    4. Dentro de la página encontrarás el formulario de inicio de sesión. Desde allí podrás crear una cuenta y acceder al sistema.
+
+## 7. Prueba de la visualización del tráfico en el proxy de interceptación con Burp Suite
+
+1. abrir Burp Suite, desde la terminal:
+   ```bash
+   burpsuite
+   ```
+   o desde el menú de aplicaciones.
+
+2. *Configurar el navegador en *Settings 
+   - Abrir el navegador (Firefox/Chrome).
+   -en este caso usaremos Firefox  
+   - Ir a settings > Network Settings > Settings...
+     - *Servidor proxy HTTP:* 127.0.0.1  
+     - *Puerto:* 8080  
+     - Habilitar opción de usar el mismo proxy para todos los protocolos.
+
+3. *Prender la interceptación en Burp (pestaña Proxy)*  
+   - Abrir Burp Suite.  
+   - Ir a la pestaña *Proxy > Intercept*.  
+   - Habilitar la opción *Intercept is on*.  
+
+4. *Descargar el certificado de Burp* 
+   - En el navegador, viajar a la URL:  
+     
+     http://localhost:8080/
+       
+   - Hacer clic en el enlace *CA Certificate* para descargar el certificado cacert.der. 
+
+5. *Importar el certificado en el navegador*  
+   - Ir a Settings > Certificates > View Certificates.  
+   - Seleccionar *Importar* y cargar el archivo cacert.der.  
+   - Marcar la casilla para *Confiar en este certificado para identificar sitios web*.  
+
+6. *Navegar a un sitio web para probar la interceptación*  
+   - En el navegador, visitar cualquier sitio web (por ejemplo, http://google.com o https://ucu.edu.uy).
