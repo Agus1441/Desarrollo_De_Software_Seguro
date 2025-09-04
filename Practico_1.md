@@ -179,6 +179,8 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
 6. *Navegar a un sitio web para probar la interceptación*  
    - En el navegador, visitar cualquier sitio web (por ejemplo, http://google.com o https://ucu.edu.uy).
 
+![Tráfico Proxy](./Imagen/Trafico_Proxy.png)
+
 ### Integrantes
 
 - Juan Martínez
