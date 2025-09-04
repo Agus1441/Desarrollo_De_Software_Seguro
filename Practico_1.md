@@ -1,5 +1,14 @@
 # Desarrollo de Software Seguro
 
+# Índice
+- [Instalación de Kali Linux en VirtualBox](##Instalación de Kali Linux en VirtualBox)
+- [Instalación de un Proxy de Interpretación (burpsuite)](##Instalación de un Proxy de Interpretación (burpsuite))
+- [Instalación de Visual Studio Code](##Instalación de Visual Studio Code)
+- [Instalación de Docker](##Instalación de Docker)
+- [Ejecución de OWASP Juice Shop en Docker](##Ejecución de OWASP Juice Shop en Docker)
+- [Ejecución de crAPI en Docker](##Ejecución de crAPI en Docker)
+- [Prueba de la visualización del tráfico en el proxy de interceptación con Burp Suite](##Prueba de la visualización del tráfico en el proxy de interceptación con Burp Suite)
+
 ## 1. Instalación de Kali Linux en VirtualBox
 
 1. Descargar VirtualBox desde [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads) y seguir el instalador correspondiente al sistema operativo host.
