@@ -2,13 +2,13 @@
 
 ## Índice
 
-- [1. Instalación de Kali Linux en VirtualBox](#1-instalación-de-kali-linux-en-virtualbox)
-- [2. Instalación de un Proxy de Interpretación (burpsuite)](#2-instalación-de-un-proxy-de-interpretación-burpsuite)
-- [3. Instalación de Visual Studio Code](#3-instalación-de-visual-studio-code)
-- [4. Instalación de Docker](#4-instalación-de-docker)
-- [5. Ejecución de OWASP Juice Shop en Docker](#5-ejecución-de-owasp-juice-shop-en-docker)
-- [6. Ejecución de crAPI en Docker](#6-ejecución-de-crapi-en-docker)
-- [7. Prueba de la visualización del tráfico en el proxy de interceptación con Burp Suite](#7-prueba-de-la-visualización-del-tráfico-en-el-proxy-de-interceptación-con-burp-suite)
+- [Instalación de Kali Linux en VirtualBox](#1-instalación-de-kali-linux-en-virtualbox)
+- [Instalación de un Proxy de Interpretación (burpsuite)](#2-instalación-de-un-proxy-de-interpretación-burpsuite)
+- [Instalación de Visual Studio Code](#3-instalación-de-visual-studio-code)
+- [Instalación de Docker](#4-instalación-de-docker)
+- [Ejecución de OWASP Juice Shop en Docker](#5-ejecución-de-owasp-juice-shop-en-docker)
+- [Ejecución de crAPI en Docker](#6-ejecución-de-crapi-en-docker)
+- [Prueba de la visualización del tráfico en el proxy de interceptación con Burp Suite](#7-prueba-de-la-visualización-del-tráfico-en-el-proxy-de-interceptación-con-burp-suite)
 
 ## 1. Instalación de Kali Linux en VirtualBox
 
@@ -179,6 +179,8 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
 6. *Navegar a un sitio web para probar la interceptación*  
    - En el navegador, visitar cualquier sitio web (por ejemplo, http://google.com o https://ucu.edu.uy).
 
+ Ejemplo de tráfico interceptado por el proxy 
+     
 ![Tráfico Proxy](./Imagen/Trafico_Proxy.jpeg)
 
 ### Integrantes
