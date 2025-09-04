@@ -86,7 +86,7 @@ cd Descargas
 sudo dpkg -i code_1.103.2-1755709794_amd64.deb
    ```
 
-(El nombre puede variar segun la descarga en caso de no funcionar copien y pegen el nombre del archivo en la terminal "sudo dpkg -i nombre_archivo")
+(El nombre puede variar segun la descarga en caso de no funcionar copien y peguen el nombre del archivo en la terminal "sudo dpkg -i nombre_archivo")
 
 ## 4. Instalación de Docker
 
@@ -145,7 +145,7 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
 
 ## 7. Prueba de la visualización del tráfico en el proxy de interceptación con Burp Suite
 
-1. abrir Burp Suite, desde la terminal:
+1. Abrir Burp Suite, desde la terminal:
    ```bash
    burpsuite
    ```
@@ -153,19 +153,19 @@ sudo dpkg -i code_1.103.2-1755709794_amd64.deb
 
 2. *Configurar el navegador en *Settings 
    - Abrir el navegador (Firefox/Chrome).
-   -en este caso usaremos Firefox  
+   - En este caso usaremos Firefox  
    - Ir a settings > Network Settings > Settings...
      - *Servidor proxy HTTP:* 127.0.0.1  
      - *Puerto:* 8080  
      - Habilitar opción de usar el mismo proxy para todos los protocolos.
 
-3. *Prender la interceptación en Burp (pestaña Proxy)*  
+3. *Activar la interceptación en Burp (pestaña Proxy)*  
    - Abrir Burp Suite.  
    - Ir a la pestaña *Proxy > Intercept*.  
    - Habilitar la opción *Intercept is on*.  
 
 4. *Descargar el certificado de Burp* 
-   - En el navegador, viajar a la URL:  
+   - En el navegador, acceder a la URL:  
      
      http://localhost:8080/
        
